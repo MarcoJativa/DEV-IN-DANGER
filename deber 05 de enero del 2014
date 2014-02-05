@@ -1,0 +1,42 @@
+#include <cstdlib>
+#include <iostream>
+# include<math.h>
+using namespace std;
+
+int main(int argc, char *argv[])
+{
+        
+        int x=0;
+        int y=0;
+        cout<<"Ingrese un numero: ";
+        cin>>x;
+        cout<<"Ingrese otro numero: ";
+        cin>>y;
+        
+        cout<<"la resta de "
+        <<x<<" y "
+        <<y<<" es "
+        <<(x-y)<<endl;
+        
+        cout<<"la multiplicacion de "
+        <<x<<" por "
+        <<y<<" es "
+        <<(x*y)<<endl;
+        
+        cout<<"la division de "
+        <<x<<" sobre "
+        <<y<<" es "
+        <<(x/y)<<endl;
+        
+        
+        cout<<"la potencia de "
+        <<x<<" elevado a  "
+        <<y<<" da como resultado "
+        <<(x^y)<<endl;
+        
+    
+    
+    
+    system("PAUSE");
+    return EXIT_SUCCESS;
+}
